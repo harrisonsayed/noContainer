@@ -1,8 +1,8 @@
 {
-	"name" : "ratePhaseModulationExperiment",
+	"name" : "inertialMovement",
 	"version" : 1,
-	"creationdate" : 3581079946,
-	"modificationdate" : 3581079947,
+	"creationdate" : 3582129240,
+	"modificationdate" : 3582129241,
 	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"ratePhaseModulationExperiment.maxpat" : 			{
+			"inertialMovement.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
