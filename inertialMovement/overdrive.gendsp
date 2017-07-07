@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 567.0, 144.0, 444.0, 327.0 ],
+		"rect" : [ 63.0, 81.0, 700.0, 329.0 ],
 		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"bglocked" : 0,
@@ -40,7 +40,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"code" : "x = in1;\t\t// -1..1\r\namount = in2; \t// -1..1\r\nk = 2*amount/(1-amount);\nout1 = (1+k)*x/(1+k*abs(x));",
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 258.0, 34.0, 157.0, 23.0 ],
+					"style" : "",
+					"text" : "scale 0. 1. 0.001 200. 7.646"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "// like overdrive~:\r\nx = in;\r\nshape = in2;\r\n// positive quadrant only:\r\nsignx = sign(in1);\r\npx = x*signx;\r\n// shape:\r\ny = 1-exp(shape * log(1 - px));\r\n// hard limit:\r\ny = clip(y, 0, 1);\r\n// return to original quadrant:\r\ny = y * signx;\r\nout1 = y;",
 					"fontface" : 0,
 					"fontname" : "Lato",
 					"fontsize" : 12.0,
@@ -49,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 42.5, 261.0, 233.0 ],
+					"patching_rect" : [ 16.0, 61.5, 261.0, 233.0 ],
 					"style" : ""
 				}
 
@@ -63,9 +76,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 8.0, 254.0, 23.0 ],
+					"patching_rect" : [ 258.0, 6.0, 440.0, 23.0 ],
 					"style" : "",
-					"text" : "in 2 @comment driveshape @min -1 @max 1"
+					"text" : "in 2 @comment \"driveShape 0.0 - 1.0 (0.5 = clean)\" @min 0. @max 1. @default 0.5"
 				}
 
 			}
@@ -78,7 +91,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 8.0, 127.0, 23.0 ],
+					"patching_rect" : [ 16.0, 34.0, 127.0, 23.0 ],
 					"style" : "",
 					"text" : "in 1 @comment input"
 				}
@@ -92,7 +105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 303.0, 38.0, 23.0 ],
+					"patching_rect" : [ 16.0, 301.0, 38.0, 23.0 ],
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -116,6 +129,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
