@@ -938,9 +938,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.0, 1725.0, 37.0, 22.0 ],
+					"patching_rect" : [ 529.0, 1725.0, 148.0, 22.0 ],
 					"style" : "",
-					"text" : "out 2"
+					"text" : "out 2 @comment rightOut"
 				}
 
 			}
@@ -1054,9 +1054,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 1725.0, 37.0, 22.0 ],
+					"patching_rect" : [ 35.0, 1725.0, 141.0, 22.0 ],
 					"style" : "",
-					"text" : "out 1"
+					"text" : "out 1 @comment leftOut"
 				}
 
 			}
