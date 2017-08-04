@@ -2,7 +2,7 @@
 	"name" : "inertialComment",
 	"version" : 1,
 	"creationdate" : 3584443721,
-	"modificationdate" : 3584443776,
+	"modificationdate" : 3584678775,
 	"viewrect" : [ 54.0, 72.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -42,6 +42,9 @@
 		}
 ,
 		"code" : 		{
+			"drunk.gendsp" : 			{
+				"kind" : "gendsp"
+			}
 
 		}
 

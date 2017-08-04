@@ -39,12 +39,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 143.0, 59.999996, 72.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 143.0, 88.666664, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Courier",
+					"hidden" : 1,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.000005, 133.333337, 186.0, 18.0 ],
+					"patching_rect" : [ 42.000004, 11.666667, 54.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.799996, 9.86667, 55.0, 18.0 ],
 					"style" : "",
@@ -142,151 +168,158 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "3.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches/EP491",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches/EP491",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressorLimitor.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "expander.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "crossover.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "justTransposer.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainReson.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pitchShifter.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slideFix.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monoauralPanner.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fletcherMunsonEqualizer.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overdrive.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowShelf.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "weightedDrunk.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monoDelay.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phasorEnv.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gaussianTransform.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dattoroPlate.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "highPass.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowPass.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phaseModulation.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches",
-				"patcherrelativepath" : "../../../../Max 7/Max Patches",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}

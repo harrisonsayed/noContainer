@@ -2,7 +2,7 @@
 	"name" : "a",
 	"version" : 1,
 	"creationdate" : 3584440755,
-	"modificationdate" : 3584441254,
+	"modificationdate" : 3584678962,
 	"viewrect" : [ 29.0, 47.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -42,6 +42,17 @@
 		}
 ,
 		"code" : 		{
+			"drunk.gendsp" : 			{
+				"kind" : "gendsp"
+			}
+,
+			"peakNotch.gendsp" : 			{
+				"kind" : "gendsp"
+			}
+,
+			"highShelf.gendsp" : 			{
+				"kind" : "gendsp"
+			}
 
 		}
 
