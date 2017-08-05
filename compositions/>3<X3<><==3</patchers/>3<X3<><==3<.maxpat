@@ -65,7 +65,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Courier",
-					"hidden" : 1,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -178,147 +177,147 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "3.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compressorLimitor.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "expander.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "crossover.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "justTransposer.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainReson.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pitchShifter.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slideFix.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monoauralPanner.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fletcherMunsonEqualizer.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "overdrive.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowShelf.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "weightedDrunk.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monoDelay.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phasorEnv.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gaussianTransform.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dattoroPlate.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "highPass.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowPass.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phaseModulation.gendsp",
-				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/>3<X3<><==3</code",
+				"bootpath" : "/Volumes/Storage Drive/Documents/harrisonsayedGithub/noContainer/compositions/>3<X3<><==3</code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1

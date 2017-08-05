@@ -2,12 +2,12 @@
 	"name" : ">3<X3<><==3<",
 	"version" : 1,
 	"creationdate" : 3584446928,
-	"modificationdate" : 3584616798,
+	"modificationdate" : 3584765056,
 	"viewrect" : [ 29.0, 47.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
 			">3<X3<><==3<.maxpat" : 			{
@@ -20,23 +20,28 @@
 ,
 		"code" : 		{
 			"allpass.gendsp" : 			{
-				"kind" : "gendsp"
+				"kind" : "gendsp",
+				"local" : 1
 			}
 ,
 			"tptLowpass.gendsp" : 			{
-				"kind" : "gendsp"
+				"kind" : "gendsp",
+				"local" : 1
 			}
 ,
 			"drunk.gendsp" : 			{
-				"kind" : "gendsp"
+				"kind" : "gendsp",
+				"local" : 1
 			}
 ,
 			"highShelf.gendsp" : 			{
-				"kind" : "gendsp"
+				"kind" : "gendsp",
+				"local" : 1
 			}
 ,
 			"peakNotch.gendsp" : 			{
-				"kind" : "gendsp"
+				"kind" : "gendsp",
+				"local" : 1
 			}
 
 		}
@@ -56,5 +61,5 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0
+	"sortmode" : 1
 }

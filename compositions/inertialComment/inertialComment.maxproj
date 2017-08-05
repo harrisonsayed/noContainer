@@ -2,12 +2,12 @@
 	"name" : "inertialComment",
 	"version" : 1,
 	"creationdate" : 3584443721,
-	"modificationdate" : 3584678775,
-	"viewrect" : [ 54.0, 72.0, 300.0, 500.0 ],
+	"modificationdate" : 3584765122,
+	"viewrect" : [ 44.0, 33.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
 			"inertialComment.maxpat" : 			{
@@ -24,7 +24,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches/generativeIterations/gI061617",
-					"projectrelativepath" : "../../../Max 7/Max Patches/generativeIterations/gI061617"
+					"projectrelativepath" : "../../../../Max 7/Max Patches/generativeIterations/gI061617"
 				}
 
 			}
@@ -34,7 +34,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches/generativeIterations/gI061617",
-					"projectrelativepath" : "../../../Max 7/Max Patches/generativeIterations/gI061617"
+					"projectrelativepath" : "../../../../Max 7/Max Patches/generativeIterations/gI061617"
 				}
 
 			}
@@ -43,7 +43,8 @@
 ,
 		"code" : 		{
 			"drunk.gendsp" : 			{
-				"kind" : "gendsp"
+				"kind" : "gendsp",
+				"local" : 1
 			}
 
 		}
@@ -63,5 +64,5 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0
+	"sortmode" : 1
 }
