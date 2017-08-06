@@ -2,7 +2,7 @@
 	"name" : "inertialComment",
 	"version" : 1,
 	"creationdate" : 3584443721,
-	"modificationdate" : 3584765122,
+	"modificationdate" : 3584863976,
 	"viewrect" : [ 44.0, 33.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,22 +21,12 @@
 		"media" : 		{
 			"toneRow.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches/generativeIterations/gI061617",
-					"projectrelativepath" : "../../../../Max 7/Max Patches/generativeIterations/gI061617"
-				}
-
+				"local" : 1
 			}
 ,
 			"rtmLayer.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Storage Drive/Documents/Max 7/Max Patches/generativeIterations/gI061617",
-					"projectrelativepath" : "../../../../Max 7/Max Patches/generativeIterations/gI061617"
-				}
-
+				"local" : 1
 			}
 
 		}
