@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 61.0, 56.0, 493.0, 522.0 ],
+		"rect" : [ 364.0, 59.0, 493.0, 522.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
