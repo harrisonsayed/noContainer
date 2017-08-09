@@ -1,0 +1,4 @@
+download zip or clone noContainer.
+install max.app (https://cycling74.com/downloads)
+unzip noContainer-master.zip and run .maxproj file.
+press toggle/button.
